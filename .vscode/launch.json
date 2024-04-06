@@ -8,7 +8,7 @@
             "type": "chrome",
             "request": "launch",
             "name": "Open main.html",
-            "file": "/Users/rithul/SPEDucate/main.html"
+            "file": "pages/main.html"
         }
     ]
 }
