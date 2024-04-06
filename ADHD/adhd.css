@@ -1,3 +1,9 @@
+/*Heading*/
+h1 {
+    text-align: center;
+    font-size: 75px;
+
+}
 /* Basic CSS for the navigation bar */
         body {
             font-family: Arial, sans-serif;
@@ -10,7 +16,7 @@
     overflow: hidden;
 }
         nav a {
-            float: left;
+           float: left;
             display: block;
             color: white;
             text-align: center;
@@ -27,3 +33,39 @@
             margin: 0;
             padding: 0;
             }
+
+/*End of Nav Bar*/
+/*CSS for next page button*/
+.nextPage {
+    text-align: center;
+    margin-top: 20px;
+}
+.nextPage li {
+    display: inline-block;
+    margin-right: 10px;
+}
+.nextPage li a {
+    background-color: #1582fe;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 45px;
+}
+
+/* CSS for the python logo and description */
+.python-container {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+.python-logo {
+    width: 300px; /* Adjust the width as needed */
+    margin-right: auto;
+    margin-left: auto;
+}
+.python-description {
+    font-size: 30px;
+    margin-right: auto;
+}        
+/* End of python logo and description */
