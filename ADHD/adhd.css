@@ -35,23 +35,27 @@ h1 {
             }
 
 /*End of Nav Bar*/
-/*CSS for next page button*/
+
+/* CSS for next page button */
 .nextPage {
     text-align: center;
     margin-top: 20px;
 }
-.nextPage li {
-    display: inline-block;
-    margin-right: 10px;
-}
-.nextPage li a {
+
+.nextPage a {
     background-color: #1582fe;
     color: white;
-    padding: 10px 20px;
+    padding: 15px 30px;
     text-decoration: none;
-    border-radius: 5px;
-    font-size: 45px;
+    border-radius: 8px;
+    font-size: 36px;
+    transition: background-color 0.3s ease;
 }
+
+.nextPage a:hover {
+    background-color: #0e5aeb; /* Darker shade when hovered */
+}
+
 
 /* CSS for the python logo and description */
 .python-container {
