@@ -4,7 +4,9 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Cairo', sans-serif;}
+  font-family: 'Cairo', sans-serif;
+}
+
 body {
   display: flex;
   justify-content: center;
@@ -13,6 +15,7 @@ body {
   overflow: hidden;
   background: #dcd9cd;
 }
+
 ul {
   position: relative;
 }
