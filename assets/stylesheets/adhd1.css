@@ -45,10 +45,12 @@ h1 {
 /* Center alignment for installation files */
 .installation-files {
     margin-top: 50px; /* Adjust margin as needed */
+    text-align: center;
 }
 
 /* Center alignment for python image */
 .python-image {
     margin-top: 50px; /* Adjust margin as needed */
+    
 }
 /* End of python logo and description */
