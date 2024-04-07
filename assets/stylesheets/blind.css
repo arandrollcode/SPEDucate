@@ -1,6 +1,7 @@
 body {
     padding: 14px;
     padding-bottom: 30px;
+    background: linear-gradient(rgb(250, 250, 240), rgb(255, 235, 235));
 }
 
 h1 {
@@ -37,8 +38,10 @@ code {
     margin: auto;
     width: fit-content;
     max-width: 80%;
-    background-color: aliceblue;
+    background-color: #cae6ff;
     padding: 30px;
+    border: black dotted;
+    border-width: 1px;
     border-radius: 8px;
 }
 
