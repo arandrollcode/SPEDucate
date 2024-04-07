@@ -22,3 +22,57 @@ window.onload = function() {
     var display = document.querySelector('#timer');
     startTimer(duration, display);
 };
+
+
+//Gamification Begins here
+//--------------------------------------------------------------------------------------------
+
+// Function to increment the score by 100 and trigger confetti animation
+function increaseScoreAndConfetti() {
+    let scoreElement = document.getElementById('score');
+    let currentScore = parseInt(scoreElement.textContent);
+    let finalScore = currentScore + 100;
+    
+    // Function to increment score with animation
+    function incrementScore(targetElement, finalScore) {
+        let incrementInterval = setInterval(() => {
+            currentScore += 10; // Increase score by 10 for smoother animation
+            targetElement.textContent = currentScore;
+            if (currentScore >= finalScore) {
+                clearInterval(incrementInterval);
+                triggerConfetti();
+            }
+        }, 50); // Interval for animation
+    }
+
+    // Function to trigger confetti animation
+    function triggerConfetti() {
+        // Your code to trigger confetti animation goes here
+        alert('Confetti animation triggered!');
+    }
+
+    incrementScore(scoreElement, finalScore);
+}
+
+// Call increaseScoreAndConfetti function when the page loads
+window.onload = increaseScoreAndConfetti;
+
+
+    // Initialize the array with 0
+    let scoreArray = [0];
+
+    // Function to update the score and array value
+    function updateScore(newScore) {
+        // Update the array with the new score
+        scoreArray[0] = newScore + scoreArray[0];
+
+        // Get the score element by ID
+        let scoreElement = document.getElementById('score');
+
+        // Update the score displayed in the HTML
+        scoreElement.textContent = scoreArray[0];
+    }
+
+    // Example usage of the updateScore function
+    // Call this function whenever you need to update the score
+    updateScore(100); // Example: update the score to 100
