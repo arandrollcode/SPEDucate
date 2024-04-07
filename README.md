@@ -21,9 +21,6 @@ Although there is already a pre-established method for surfing the web while bli
 
 It is worth considering those with color blindness as well. When designing webpages, it is good practice to be aware that there are many different types of color blindness. Using a [good color palette](https://davidmathlogic.com/colorblind/#%23D81B60-%231E88E5-%23FFC107-%23004D40) is key to opening the doors of any website to as many users as possible.
 
-## Challenges
-
-
 ## Lessons Learned
 This was our first time using a proper GitHub environment. We learned how to manage workflow, delegate tasks, and cooperate with a team in a professional environment. The entire project was also very enlighentening for those on our team who did not have much experience with learning disabilities as they read about the struggles that some of their peers faced.
 
