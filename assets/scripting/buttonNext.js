@@ -13,7 +13,4 @@ function startTimer2to3() {
     window.open('adhd3.html', '_blank');
 }
 
-function startTimer3to4() {
-    // Redirect to the next page
-    window.open('adhd4.html', '_blank');
-}
+
