@@ -189,5 +189,6 @@ ul {
 
 #badge{
     display: block;
-    margin: 0 auto;
+    margin: auto;
+    object-position: -95px;
 }
