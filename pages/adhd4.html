@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <script src="../assets/scripting/buttonTimer.js"></script>
     <script src="../assets/scripting/buttonNext.js"></script>
+    <script src="jquery-1.6.1.js"></script>
     <body id="adhd4">
         <div id="timer"></div>
        
@@ -68,7 +69,9 @@
          </div>
          <div class="nextPage">
             <!-- Leave the hyperlink intact but add the onclick event to call startTimer() -->
-            <a href="main.html">Claim Badge</a>
+          
+              <a href="main.html" onclick="claimBadge()" >Claim Badge</a>
+            
         </div>
        </body>
 </html>

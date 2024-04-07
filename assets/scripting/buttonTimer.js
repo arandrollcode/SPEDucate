@@ -48,7 +48,7 @@ function increaseScoreAndConfetti() {
     // Function to trigger confetti animation
     function triggerConfetti() {
         // Your code to trigger confetti animation goes here
-        alert('Confetti animation triggered!');
+        alert('Good Job! You\'ve earned 100 points!');
     }
 
     incrementScore(scoreElement, finalScore);
@@ -76,3 +76,10 @@ window.onload = increaseScoreAndConfetti;
     // Example usage of the updateScore function
     // Call this function whenever you need to update the score
     updateScore(100); // Example: update the score to 100
+
+    //claim badge
+
+    //Function to show alert of completion
+    function claimBadge() {
+        alert("Congratulations! You have completed this lesson!");
+    }
