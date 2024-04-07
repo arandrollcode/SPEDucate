@@ -1,0 +1,78 @@
+body {
+    padding: 14px;
+    padding-bottom: 30px;
+}
+
+h1 {
+    padding-bottom: 30px;
+    font-size: xx-large;
+    text-decoration: underline;
+}
+
+h2 {
+    padding: 20px;
+    padding-left: 0px;
+}
+
+p {
+    font-size: larger;
+    color: #00251F;
+}
+
+li {
+    font-size: larger;
+    color: #00251F;
+}
+
+li > a {
+    color: #1E88E5;
+}
+
+code {
+    color: #D0004C;
+    font-weight: bold;
+}
+
+.text-block {
+    margin: auto;
+    width: fit-content;
+    max-width: 80%;
+    background-color: aliceblue;
+    padding: 30px;
+    border-radius: 8px;
+}
+
+.bullet-points {
+    list-style-type: initial;
+    margin: 0px;
+    margin-left: 23px;
+    text-align: left;
+}
+
+.intro-python {
+    display: grid;
+    align-items: center;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 5px;
+}
+
+.python-logo {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.python-description {
+    font-size: large;
+}
+
+.first-program {
+    display: grid;
+    align-items: center;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 5px;
+}
+
+.python-imageI, .python-imageF {
+    max-width: 100%;
+    max-height: 100%;
+}
