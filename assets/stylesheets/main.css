@@ -67,7 +67,7 @@ ul li a:hover:before {
   height: 1800px;
 }
 ul li:nth-child(6n + 1) a:before {
-  background: #0470fe;
+  background: #d3d3d3;
 }
 ul li:nth-child(6n + 2) a:before {
   background: coral;
