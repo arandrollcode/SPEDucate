@@ -3,20 +3,24 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ADHD Page 1</title>
+    <title>Installing Python</title>
     <link rel="stylesheet" href="../assets/stylesheets/general.css">
-    <link rel="stylesheet" href="../assets/stylesheets/adhd1.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <link rel="stylesheet" href="../assets/stylesheets/button.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <script src="../assets/scripting/buttonTimer.js"></script>
     <script src="../assets/scripting/buttonNext.js"></script>
 </head>
 
-<body>
+<
+        
+<body id="adhd1">
  <div id="timer"></div>
 
- <nav class="navbar navbar-expand-lg navbar-light bg-blue">
-    <a class="navbar-brand" href="main.html">SPEDucate  |</a>
+
+<nav class="navbar navbar-expand-lg navbar-light bg-blue">
+    <a class="navbar-brand" href="#">SPEDucate  |</a>
+
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -41,32 +45,43 @@
     </div>
   </nav>
 
-<h1>How to Install Python</h1>
-<div class="installation-instructions">
-    <p>Follow these steps to install Python on your system:</p>
-    <ul id="instructions">
-        <li>Go to the official Python website.</li>
-        <li>Download the Python installer for your operating system.</li>
-        <li>Run the installer and follow the on-screen instructions.</li>
-        <li>Once installed, you can verify the installation by opening a terminal or command prompt and typing <code>python --version</code>.</li>
-    </ul>
-</div>
 
-<div class="installation-files">
-    <h2>Python Installation Files</h2>
-    <p>Download the Python installation file for your operating system:</p>
-    <ul>
-        <li><a href="https://www.python.org/downloads/" target="_blank">Python Installer</a></li>
-    </ul>
-</div>
+  <div class="container">
+    <img class="python-logo" src="../assets/python_logo.png" alt="Python Logo">
+    <div class="row">
+      <div class="col-md-6">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">How to install Python</h5>
+            </h5>
+            <p class="card-text">Go to the official Python website.</p>
+            <p> Download the Python installer for your operating system.</p>
+            <p> Run the installer and follow the on-screen instructions.</p>
+            <p> Once installed, you can verify the installation by opening a terminal or command prompt and typing <code>python --version</code>.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">Python Installation Files</h5>
+            <ul class="card-text">
+                <li> Download the Python installation file for your operating system: </li>
+                <li> <a href="https://www.python.org/downloads/" target="_blank">Python Installer</a></li>
+                <li> Follow the directions listed!</li>
+                <li> Now, open IDLE. Use this for all our coding!</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 
-<div class="python-image">
- <img src="../assets/python_logo.jpeg" alt="Python Image">
-</div>
-<div class="nextPage">
+  <div class="nextPage">
     <!-- Leave the hyperlink intact but add the onclick event to call startTimer() -->
-    <a target="_blank" href="adhd2.html" data-text="Next Page" onclick="startTimer()">Next Page</a>
+    <a target="_blank" href="adhd2.html" data-text="Next Page" onclick="startTimer1to2()">Next Page</a>
 </div>
 </body>
 </html>
+
 

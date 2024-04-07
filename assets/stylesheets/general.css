@@ -11,12 +11,59 @@ h1 {
 }
 
 
-body {
+#adhd0 {
     font-family: 'Helvetica', sans-serif;
     font-size: 18px;
     margin: 0;
     padding: 20px;
-    background: linear-gradient(beige, rgb(255, 208, 208));
+    background: linear-gradient(to bottom right, beige, rgb(255, 208, 208));
+    height: 100%;
+    background-size: cover;
+
+}
+
+#adhd1 {
+    font-family: 'Helvetica', sans-serif;
+    font-size: 18px;
+    margin: 0;
+    padding: 20px;
+    background: linear-gradient(to bottom right, rgb(255, 208, 208), rgb(160, 238, 181));
+    height: 100%;
+    background-size: cover;
+
+}
+
+#adhd2 {
+    font-family: 'Helvetica', sans-serif;
+    font-size: 18px;
+    margin: 0;
+    padding: 20px;
+    background: linear-gradient(to bottom right, rgb(160, 238, 181), rgb(106, 144, 255));
+    height: 100%;
+    background-size: cover;
+
+}
+
+#adhd3 {
+    font-family: 'Helvetica', sans-serif;
+    font-size: 18px;
+    margin: 0;
+    padding: 20px;
+    background: linear-gradient(to bottom right, rgb(106, 144, 255),rgb(198, 106, 255));
+    height: 100%;
+    background-size: cover;
+
+}
+
+#adhd4 {
+    font-family: 'Helvetica', sans-serif;
+    font-size: 18px;
+    margin: 0;
+    padding: 20px;
+    background: linear-gradient(to bottom right, rgb(198, 106, 255), rgb(243, 244, 247));
+    height: 100%;
+    background-size: cover;
+
 }
 
 nav {
@@ -90,6 +137,11 @@ ul {
 }
 
 .python-logo {
+    display: block;
+    margin: 0 auto;
+}
+
+#badge{
     display: block;
     margin: 0 auto;
 }
