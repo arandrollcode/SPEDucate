@@ -101,7 +101,8 @@ ul {
 
 .python-logo {
     width: 200px; 
-    margin-right: 20px;
+    margin-right: auto;
+    margin-left: auto;
 }
 
 .python-description {
@@ -143,7 +144,8 @@ ul {
 
 #badge{
     display: block;
-    margin: 0 auto;
+    margin: auto;
+    object-position: -95px;
 }
 
 
