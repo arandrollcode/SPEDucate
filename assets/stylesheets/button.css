@@ -26,6 +26,7 @@
     padding: 10px;
     background-color: #f1f1f1;
     border: 1px solid #ccc;
+    z-index: index 950;
 }
 
 /* Style for the timer text */
