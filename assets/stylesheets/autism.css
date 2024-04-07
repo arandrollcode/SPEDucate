@@ -1,3 +1,48 @@
+
+/*Heading*/
+
+/* CSS for next page button */
+.nextPage {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.nextPage a {
+    background-color: #1582fe;
+    color: white;
+    padding: 15px 30px;
+    text-decoration: none;
+    border-radius: 8px;
+    font-size: 36px;
+    transition: background-color 0.3s ease;
+}
+
+.nextPage a:hover {
+    background-color: #0e5aeb; /* Darker shade when hovered */
+}
+
+/* CSS for the python logo and description */
+
+/* Center alignment for installation instructions */
+.installation-instructions {
+    margin-top: 50px; 
+    text-align: center;
+}
+
+/* Center alignment for installation files */
+.installation-files {
+    margin-top: 50px; /* Adjust margin as needed */
+    text-align: center;
+}
+
+/* Center alignment for python image */
+.python-image {
+    margin-top: 50px; /* Adjust margin as needed */
+}
+/* End of python logo and description */
+
+/*GENERAL IMPORTS*/
+
 @font-face {
     font-family: 'Helvetica';
     src: local('Helvetica'), url('path/to/helvetica.woff') format('woff');
@@ -5,12 +50,13 @@
 
 h1 {
     text-align: center;
-    font-size: 48px;
-    color: #1582fe; 
+    font-size: 55px;
+    color: coral; 
     margin-top: 50px;
 }
 
-#adhd0 {
+
+#welcome {
     font-family: 'Helvetica', sans-serif;
     font-size: 18px;
     margin: 0;
@@ -21,7 +67,7 @@ h1 {
 
 }
 
-#adhd1 {
+#install {
     font-family: 'Helvetica', sans-serif;
     font-size: 18px;
     margin: 0;
@@ -32,7 +78,7 @@ h1 {
 
 }
 
-#adhd2 {
+#Program1 {
     font-family: 'Helvetica', sans-serif;
     font-size: 18px;
     margin: 0;
@@ -43,7 +89,7 @@ h1 {
 
 }
 
-#adhd3 {
+#vars {
     font-family: 'Helvetica', sans-serif;
     font-size: 18px;
     margin: 0;
@@ -54,7 +100,7 @@ h1 {
 
 }
 
-#adhd4 {
+#end {
     font-family: 'Helvetica', sans-serif;
     font-size: 18px;
     margin: 0;
@@ -66,7 +112,7 @@ h1 {
 }
 
 nav {
-    background-color: #76a5da; 
+    background-color: coral; 
     overflow: hidden;
     margin-bottom: 20px;
     z-index: 900;
@@ -75,7 +121,7 @@ nav {
 nav a {
     float: left;
     display: block;
-    color: black;
+    color: white;
     text-align: center;
     padding: 20px;
     text-decoration: none;

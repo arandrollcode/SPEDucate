@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Autism Education</title>
+    <link rel="stylesheet" href="../assets/stylesheets/general.css">
     <link rel="stylesheet" href="../assets/stylesheets/autism.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <link rel="stylesheet" href="../assets/stylesheets/autism.css">
@@ -11,7 +12,8 @@
     <script src="../assets/scripting/buttonNext.js"></script>
 </head>
 
-<!-- Page 1: Welcome -->
+
+
 
 <body id="welcome">
   <div id="timer"></div>
@@ -43,7 +45,6 @@
   
   <div class="container">
       <img class="python-logo" src="../assets/python_logo.png" alt="Python Logo">
-      <h1>Welcome To Python</h1>
       <div class="row">
         <div class="col-md-6">
           <div class="card">
@@ -71,13 +72,13 @@
   
       </div>
     </div>
-  </body>
+</body>
         
 <!-- Page 2: How to install Python -->
 
-<body id="install">
+<body id="install" style="display: none;">
   <div class="container">
-    <h1>Installing Python</h1>
+    <img class="python-logo" src="../assets/python_logo.png" alt="Python Logo">
     <div class="row">
       <div class="col-md-6">
         <div class="card">
@@ -106,14 +107,13 @@
       </div>
     </div>
   </div>
-</div>
 </body>
 
 <!-- Page 3: Our First Program -->
 
-<body id="Program1">
+<body id="Program1" style="display: none;">
    <div class="container">
-    <h1>Our First Program</h1>
+     <img class="python-logo" src="../assets/python_logo.png" alt="Python Logo">
      <div class="row">
        <div class="col-md-6">
          <div class="card">
@@ -142,14 +142,13 @@
        </div>
      </div>
    </div> 
- </div>
- </body>
+</body>
 
 <!-- Page 4: Variables & Data Types -->
 
- <body id="vars"> 
+ <body id="vars" style="display: none;"> 
    <div class="container">
-    <h1>Variables & Data Types</h1>
+     <img class="python-logo" src="../assets/python_logo.png" alt="Python Logo">
      <div class="row">
        <div class="col-md-6">
          <div class="card">
@@ -184,9 +183,9 @@
 
 <!-- Page 5: Conclusion -->
 
- <body id="end"> 
+ <body id="end" style="display: none;"> 
    <div class="container">
-   <h1>Conclusion</h1>
+     <img class="python-logo" src="../assets/python_logo.png" alt="Python Logo">
      <div class="row">
        <div class="col-md-6">
          <div class="card">
@@ -209,10 +208,14 @@
        </div>
      </div>
    </div>
-   <div class="nextPage">
+  <div class="nextPage">
       <a target="_blank" href="main.html">Claim Badge</a>
   </div>
- </body>
+</body>
+<!-- Buttons -->
+<button onclick="toggleVisibility('welcome')">Welcome</button>
+<button onclick="toggleVisibility('install')">How to Install Python</button>
+<button onclick="toggleVisibility('Program1')">Our First Program</button>
+<button onclick="toggleVisibility('vars')">Variables & Data Types</button>
+<button onclick="toggleVisibility('end')">Conclusion</button>
 </html>
-
-
