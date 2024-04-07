@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <script src="../assets/scripting/buttonNext.js"></script>
 </head>
-<body>
+<body id="adhd0">
 
 <nav class="navbar navbar-expand-lg navbar-light bg-blue">
     <a class="navbar-brand" href="#">SPEDucate  |</a>
@@ -19,41 +19,58 @@
     <div class="collapse navbar-collapse" id="navbarNav">
       <ul class="navbar-nav">
         <li class="nav-item active">
-          <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+          <a class="nav-link" href="main.html">Home <span class="sr-only">(current)</span></a>
         </li>
         <li class="nav-item active">
-            <a class="nav-link" href="#">Autism Course<span class="sr-only">(current)</span></a>
+            <a class="nav-link" href="autism.html">Autism Course<span class="sr-only">(current)</span></a>
         </li>
         <li class="nav-item active">
-          <a class="nav-link" href="#">ADHD Course<span class="sr-only">(current)</span></a>
+          <a class="nav-link" href="adhd.html">ADHD Course<span class="sr-only">(current)</span></a>
         </li>
         <li class="nav-item active">
-            <a class="nav-link" href="#">Blind Course <span class="sr-only">(current)</span></a>
+            <a class="nav-link" href="blind.html">Blind Course <span class="sr-only">(current)</span></a>
         </li>
         <li class="nav-item active">
-        <a class="nav-link" href="#">About Us <span class="sr-only">(current)</span></a>
+        <a class="nav-link" href="aboutus.html">About Us <span class="sr-only">(current)</span></a>
         </li>
       </ul>
     </div>
   </nav>
 
-<h1>
-    Welcome to Python
-</h1>
-<div class="python-container">
-    <img class="python-logo" src="../assets/python_logo.jpeg" alt="Python Logo">
-    <div class="python-description">
-        <p>Python is a general-purpose, high-level programming language that's known for its readability.</p>
-        <p>It's object-oriented, interpreted, and has dynamic semantics.</p>
-        <p>Python programs are made up of commands and definitions, which are also known as scripts.</p>
+
+<div class="container">
+    <img class="python-logo" src="../assets/python_logo.png" alt="Python Logo">
+    <div class="row">
+      <div class="col-md-6">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">Welcome To Python</h5>
+            <p class="card-text">This mini-course will teach you about the basics of Python!</p>
+            <p> Click on the next button to go through each section in this module we created.</p>
+            <p> In the future, we will add more and more lessons for you to go through.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">What this page has!</h5>
+            <ul class="card-text">
+                <li> - How to install python </li>
+                <li> - Timer based learning</li>
+                <li> - Easy learning techniques</li>
+                <li> - Step-by-step teaching</li>
+            </ul>
+          </div>
+        </div>
+      </div>
     </div>
   </div>
   
 
 <div class="nextPage">
     <!-- Leave the hyperlink intact but add the onclick event to call startTimer() -->
-    <a target="_blank" href="adhd1.html" data-text="Next Page" onclick="startTimer()">Next Page</a>
-
+    <a target="_blank" href="adhd1.html" data-text="Next Page" onclick="startTimer0to1()">Next Page</a>
 </div>
 
 
