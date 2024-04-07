@@ -6,23 +6,40 @@
     <title>Blindness Education</title>
     <link rel="stylesheet" href="../assets/stylesheets/general.css">
     <link rel="stylesheet" href="../assets/stylesheets/blind.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
 </head>
 <body>
 
-<nav>
-    <ul class="menu">
-        <li><a href="main.html" data-text="Home">Home</a></li>
-        <li><a href="autism.html" data-text="Autism">Autism Education</a></li>
-        <li><a href="adhd.html" data-text="ADHD">ADHD Education</a></li>
-        <li><a href="blind.html" data-text="Blind">Blind Education</a></li>
-        <li><a href="aboutus.html" data-text="About Us">About Us</a></li>
-    </ul>
+<nav class="navbar navbar-expand-lg navbar-light bg-blue">
+    <a class="navbar-brand" href="main.html">SPEDucate  |</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+        <li class="nav-item active">
+            <a class="nav-link" href="main.html">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item active">
+            <a class="nav-link" href="autism.html">Autism Course<span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item active">
+            <a class="nav-link" href="adhd.html">ADHD Course<span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item active">
+            <a class="nav-link" href="blind.html">Blind Course <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item active">
+        <a class="nav-link" href="aboutus.html">About Us <span class="sr-only">(current)</span></a>
+        </li>
+        </ul>
+    </div>
 </nav>
 
 <div>
     <h1>Welcome to Python</h1>
     <div class="python-container">
-        <img class="python-logo" src="../assets/python_logo.jpeg" alt="Python Logo">
+        <img class="python-logo" src="../assets/python_logo.png" alt="Python Logo">
         <div class="python-description">
             <p>Python is one of the most versatile and popular programming languages.</p>
             <p>Its syntax makes it much easier to understand compared to most programming languages</p>
@@ -30,6 +47,7 @@
     </div>
 </div>
 
+<hr>
 <div>
     <h1>How to Install Python</h1>
     <div class="installation-instructions">
@@ -37,7 +55,7 @@
         <ul id="instructions" class="bullet-points">
             <li>Go to the official Python website.</li>
             <li>Download the Python installer for your operating system.</li>
-            <li>Run the installer and follow the on-screen instructions.</li>
+            <li>Run the installer and follow the on screen instructions.</li>
             <li>Once installed, you can verify the installation by opening a terminal or command prompt and typing <code>python --version</code>.</li>
         </ul>
     </div>
@@ -50,6 +68,7 @@
     </div>
 </div>
 
+<hr>
 <div>
     <h1>Our First Program</h1>
     <h2>Printing Hello World</h2>
@@ -72,6 +91,7 @@
     </div>
 </div>
 
+<hr>
 <div>
     <h1>Variables</h1>
     <ul class="bullet-points">
@@ -81,6 +101,7 @@
     </ul>
 </div>
 
+<hr>
 <div>
     <h1>Data Types</h1>
     <ul class="bullet-points">
@@ -98,6 +119,10 @@
         <li>Floats are numbers with decimals</li>
         <li>An example of creating a variable that stores a float: <code>f = 5.7</code></li>
     </ul>
+</div>
+
+<div>
+    
 </div>
 
 </body>
